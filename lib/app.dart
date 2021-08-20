@@ -355,16 +355,15 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                                     (value) => Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => InfoOverview(
-                                                fullName:
-                                                    _fullNameController.text,
-                                                email: _emailController.text,
-                                                gender: _currentSelectedValue,
-                                                track: _trackValue,
-                                                xpLevel: _xpValue,
-                                                employmentStatus:
-                                                    _employmentValue,
-                                              )),
+                                        builder: (context) => InfoOverview(
+                                          fullName: _fullNameController.text,
+                                          email: _emailController.text,
+                                          gender: _currentSelectedValue,
+                                          track: _trackValue,
+                                          xpLevel: _xpValue,
+                                          employmentStatus: _employmentValue,
+                                        ),
+                                      ),
                                     ),
                                   );
                             }
