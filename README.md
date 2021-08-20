@@ -30,7 +30,7 @@
       <a href="#links-to-resources">Links to resources</a>
     </li>
     <li>
-      <a href="#getting-started">Getting started with Flutter</a>
+      <a href="#getting-started-with-flutter">Getting started with Flutter</a>
     </li>
 
   </ol>
